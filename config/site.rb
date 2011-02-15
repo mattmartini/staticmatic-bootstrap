@@ -1,15 +1,11 @@
 require 'bundler'
 Bundler.setup
 
-#require 'compass'
-#require 'coderay'
-#require 'haml-coderay'
-
-# Parse the Compass config
-#Compass.add_project_configuration('config.rb')
+require 'coderay'
+require 'haml-coderay'
 
 # Default is 3000
-configuration.preview_server_port = 3003
+configuration.preview_server_port = 3000
 
 # Default is localhost
 configuration.preview_server_host = "localhost"
